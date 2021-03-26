@@ -1,0 +1,17 @@
+*{
+    border: 1px solid black;
+    margin: 0px;
+}
+header{
+    background: pink;
+}
+section{
+    background: green;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(auto, 50%);
+}
+section article{
+    height: 95%;
+    width: 95%;
+}
