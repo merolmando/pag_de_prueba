@@ -2,16 +2,22 @@
     border: 1px solid black;
     margin: 0px;
 }
+body{
+    background: powderblue;
+    display: grid;
+    grid-template-rows: 240px, 40%, 40%, 240px;
+}
 header{
-    background: pink;
+    display: grid;
+    grid-area: auto;
 }
 section{
-    background: green;
+    background: plum;
+    padding: 5%;
     display: grid;
-    grid-template-columns: repeat(3,33%);
-    grid-template-rows: repeat(auto, 50%);
+    grid-template-columns: repeat(4,auto);
+    gap: 5%;
 }
-section article{
-    height: 95%;
-    width: 95%;
+aside{
+    background: pink;
 }
